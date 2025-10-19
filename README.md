@@ -39,6 +39,7 @@ Usage:-
 Files:-
 1. main.py: This file is the entry point of the application. It loads the trained model and uses it to predict the emotions of faces in real-time using a webcam. This file contains the Python code for building and training the CNN.
 3. HaarcascadeclassifierCascadeClassifier.xml: The pre-trained Haar Cascade Classifier for detecting faces in images.
-4. emotion_model4.pth: The final pre-trained PyToech model with the highest accuracy compare to other for emotion detection.
+4. emotion_model4.pth: The final pre-trained PyTorch model with the highest accuracy compare to other for emotion detection.
+
 
 
