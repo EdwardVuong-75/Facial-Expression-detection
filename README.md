@@ -6,7 +6,11 @@ This project is a Real time Facial-Expression-detection using Computer Vision an
  to recognize facial expressions of seven different emotions: angry, disgust, fear, happy, neutral, sad, and surprise. The model is trained on the Face expression recognition dataset (FER2013). 
 Dataset E-link: https://www.kaggle.com/datasets/msambare/fer2013.
 
+
 <img width="603" height="439" alt="Screenshot 2025-10-19 020608" src="https://github.com/user-attachments/assets/6c88dcd1-bb56-407f-9365-fa4d65ac9958" />
+
+<img width="1108" height="816" alt="Screenshot 2025-10-14 160403" src="https://github.com/user-attachments/assets/78f31cf6-4690-4193-b15f-81d3ea66a868" />
+
 
 Requirements:-
 Python 3.11,
@@ -36,4 +40,5 @@ Files:-
 1. main.py: This file is the entry point of the application. It loads the trained model and uses it to predict the emotions of faces in real-time using a webcam. This file contains the Python code for building and training the CNN.
 3. HaarcascadeclassifierCascadeClassifier.xml: The pre-trained Haar Cascade Classifier for detecting faces in images.
 4. emotion_model4.pth: The final pre-trained PyToech model with the highest accuracy compare to other for emotion detection.
+
 
